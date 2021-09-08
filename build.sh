@@ -1,3 +1,5 @@
 #!/bin/bash -e
 
-docker build -t homer:4.11 .
+source config.sh
+
+docker build -t ${image_name}:${version} .

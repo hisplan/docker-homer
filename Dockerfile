@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 LABEL maintainer="Jaeyoung Chun (chunj@mskcc.org)" \
       version.homer="4.11" \
       source.homer="http://homer.ucsd.edu/homer/download.html"
